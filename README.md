@@ -79,6 +79,10 @@
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote" />
 </p>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neelsomani00/neelsomani00/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/neelsomani00/neelsomani00/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution snake game" src="https://raw.githubusercontent.com/neelsomani00/neelsomani00/output/github-contribution-grid-snake.svg">
+</picture>
 ---
 <p align="center"><i>⭐️ From <a href="https://github.com/neelsomani00">neelsomani00</a></i></p>
