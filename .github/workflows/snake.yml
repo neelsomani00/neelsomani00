@@ -1,23 +1,22 @@
 name: Generate Snake
 
 on:
-  # Automatically runs every 24 hours
   schedule:
     - cron: "0 0 * * *"
-  
-  # Allows you to manually trigger it anytime
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    # This block explicitly grants the action write permissions to bypass the 403 error
+    permissions:
+      contents: write
+      
     steps:
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
-          # Your GitHub username
           github_user_name: ${{ github.repository_owner }}
-          # The files it will create
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
