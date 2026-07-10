@@ -82,4 +82,3 @@
 
 ---
 <p align="center"><i>⭐️ From <a href="https://github.com/neelsomani00">neelsomani00</a></i></p>
-![Your Stats](https://github-readme-stats.vercel.app/api?username=neelsomani00&show_icons=true&theme=radical)
